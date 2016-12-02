@@ -72,11 +72,10 @@
         index = 101;
     }
     NSString * str=[NSString stringWithFormat: @"%ld", (long)index];
-//    CGFloat subX = scrollView.contentOffset.x;
-//    //    NSLog(@"subX is %.2f", subX);
-//    NSInteger index = subX / KSWIDTH + 100;
-//    NSString * str=[NSString stringWithFormat: @"%ld", (long)index];
-    
+    //CGFloat subX = scrollView.contentOffset.x;
+    //NSLog(@"subX is %.2f", subX);
+    //NSInteger index = subX / KSWIDTH + 100;
+    //NSString * str=[NSString stringWithFormat: @"%ld", (long)index];
     NSDictionary *dict =[[NSDictionary alloc]initWithObjectsAndKeys:str,@"index" ,nil];
     //创建通知
     NSNotification *notification =[NSNotification notificationWithName:@"changeBtnSelected" object:nil userInfo:dict];
