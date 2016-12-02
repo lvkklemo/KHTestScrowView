@@ -13,6 +13,8 @@
 		8411D1B91DE7D1360001E4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8411D1B71DE7D1360001E4D2 /* Main.storyboard */; };
 		8411D1BB1DE7D1360001E4D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8411D1BA1DE7D1360001E4D2 /* Assets.xcassets */; };
 		8411D1BE1DE7D1360001E4D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8411D1BC1DE7D1360001E4D2 /* LaunchScreen.storyboard */; };
+		84E145971DF1099600B793D9 /* ContentBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E145961DF1099600B793D9 /* ContentBaseView.m */; };
+		84E1459B1DF115FB00B793D9 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E1459A1DF115FB00B793D9 /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		8411D1BA1DE7D1360001E4D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8411D1BD1DE7D1360001E4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8411D1BF1DE7D1360001E4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E145951DF1099600B793D9 /* ContentBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentBaseView.h; sourceTree = "<group>"; };
+		84E145961DF1099600B793D9 /* ContentBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentBaseView.m; sourceTree = "<group>"; };
+		84E145991DF115FB00B793D9 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		84E1459A1DF115FB00B793D9 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				8411D1B21DE7D1360001E4D2 /* AppDelegate.m */,
 				8411D1B41DE7D1360001E4D2 /* ViewController.h */,
 				8411D1B51DE7D1360001E4D2 /* ViewController.m */,
+				84E145951DF1099600B793D9 /* ContentBaseView.h */,
+				84E145961DF1099600B793D9 /* ContentBaseView.m */,
+				84E145991DF115FB00B793D9 /* UIViewExt.h */,
+				84E1459A1DF115FB00B793D9 /* UIViewExt.m */,
 				8411D1B71DE7D1360001E4D2 /* Main.storyboard */,
 				8411D1BA1DE7D1360001E4D2 /* Assets.xcassets */,
 				8411D1BC1DE7D1360001E4D2 /* LaunchScreen.storyboard */,
@@ -151,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8411D1B61DE7D1360001E4D2 /* ViewController.m in Sources */,
+				84E145971DF1099600B793D9 /* ContentBaseView.m in Sources */,
+				84E1459B1DF115FB00B793D9 /* UIViewExt.m in Sources */,
 				8411D1B31DE7D1360001E4D2 /* AppDelegate.m in Sources */,
 				8411D1B01DE7D1360001E4D2 /* main.m in Sources */,
 			);
@@ -309,6 +321,7 @@
 				8411D1C41DE7D1360001E4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
