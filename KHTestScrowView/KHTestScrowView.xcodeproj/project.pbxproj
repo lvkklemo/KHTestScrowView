@@ -13,6 +13,10 @@
 		8411D1B91DE7D1360001E4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8411D1B71DE7D1360001E4D2 /* Main.storyboard */; };
 		8411D1BB1DE7D1360001E4D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8411D1BA1DE7D1360001E4D2 /* Assets.xcassets */; };
 		8411D1BE1DE7D1360001E4D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8411D1BC1DE7D1360001E4D2 /* LaunchScreen.storyboard */; };
+		844566211DF1602E00840A03 /* LVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844566201DF1602E00840A03 /* LVTabBarController.m */; };
+		844566241DF1619400840A03 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844566231DF1619400840A03 /* SecondController.m */; };
+		844566281DF1638200840A03 /* LVTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 844566271DF1638200840A03 /* LVTool.m */; };
+		8445662B1DF1649300840A03 /* LVTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8445662A1DF1649300840A03 /* LVTopView.m */; };
 		84E145971DF1099600B793D9 /* ContentBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E145961DF1099600B793D9 /* ContentBaseView.m */; };
 		84E1459B1DF115FB00B793D9 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E1459A1DF115FB00B793D9 /* UIViewExt.m */; };
 /* End PBXBuildFile section */
@@ -28,6 +32,14 @@
 		8411D1BA1DE7D1360001E4D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8411D1BD1DE7D1360001E4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8411D1BF1DE7D1360001E4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8445661F1DF1602E00840A03 /* LVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTabBarController.h; sourceTree = "<group>"; };
+		844566201DF1602E00840A03 /* LVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTabBarController.m; sourceTree = "<group>"; };
+		844566221DF1619400840A03 /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondController.h; path = KHTestScrowView/SecondController.h; sourceTree = SOURCE_ROOT; };
+		844566231DF1619400840A03 /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondController.m; path = KHTestScrowView/SecondController.m; sourceTree = SOURCE_ROOT; };
+		844566261DF1638200840A03 /* LVTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTool.h; sourceTree = "<group>"; };
+		844566271DF1638200840A03 /* LVTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTool.m; sourceTree = "<group>"; };
+		844566291DF1649300840A03 /* LVTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTopView.h; sourceTree = "<group>"; };
+		8445662A1DF1649300840A03 /* LVTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTopView.m; sourceTree = "<group>"; };
 		84E145951DF1099600B793D9 /* ContentBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentBaseView.h; sourceTree = "<group>"; };
 		84E145961DF1099600B793D9 /* ContentBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentBaseView.m; sourceTree = "<group>"; };
 		84E145991DF115FB00B793D9 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
@@ -64,8 +76,11 @@
 		8411D1AD1DE7D1360001E4D2 /* KHTestScrowView */ = {
 			isa = PBXGroup;
 			children = (
+				844566251DF1636700840A03 /* Second */,
 				8411D1B11DE7D1360001E4D2 /* AppDelegate.h */,
 				8411D1B21DE7D1360001E4D2 /* AppDelegate.m */,
+				8445661F1DF1602E00840A03 /* LVTabBarController.h */,
+				844566201DF1602E00840A03 /* LVTabBarController.m */,
 				8411D1B41DE7D1360001E4D2 /* ViewController.h */,
 				8411D1B51DE7D1360001E4D2 /* ViewController.m */,
 				84E145951DF1099600B793D9 /* ContentBaseView.h */,
@@ -87,6 +102,19 @@
 				8411D1AF1DE7D1360001E4D2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844566251DF1636700840A03 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				844566261DF1638200840A03 /* LVTool.h */,
+				844566271DF1638200840A03 /* LVTool.m */,
+				844566291DF1649300840A03 /* LVTopView.h */,
+				8445662A1DF1649300840A03 /* LVTopView.m */,
+				844566221DF1619400840A03 /* SecondController.h */,
+				844566231DF1619400840A03 /* SecondController.m */,
+			);
+			path = Second;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +190,11 @@
 			files = (
 				8411D1B61DE7D1360001E4D2 /* ViewController.m in Sources */,
 				84E145971DF1099600B793D9 /* ContentBaseView.m in Sources */,
+				8445662B1DF1649300840A03 /* LVTopView.m in Sources */,
+				844566241DF1619400840A03 /* SecondController.m in Sources */,
+				844566281DF1638200840A03 /* LVTool.m in Sources */,
 				84E1459B1DF115FB00B793D9 /* UIViewExt.m in Sources */,
+				844566211DF1602E00840A03 /* LVTabBarController.m in Sources */,
 				8411D1B31DE7D1360001E4D2 /* AppDelegate.m in Sources */,
 				8411D1B01DE7D1360001E4D2 /* main.m in Sources */,
 			);
